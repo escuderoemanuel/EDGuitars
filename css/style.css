@@ -45,7 +45,7 @@ main p {
   align-items: center;
   background-color: #000000;
   padding: 1rem 0.5rem 0.5rem 0.5rem;
-  box-shadow: 0px 0.5px 5px #5f5f5f;
+  box-shadow: 0px 0.5px 5px #5f5f5fec;
 }
 
 .nav__link {
@@ -59,7 +59,7 @@ main p {
 
 .nav__link:hover {
   text-shadow: 0px -1px 5px #ffffff;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 #link__activo {
@@ -171,7 +171,7 @@ main p {
   cursor: pointer;
   padding: 5px;
   background-color: #0066fff3;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 #button:hover {
