@@ -11,7 +11,7 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "header"
     "main"
@@ -71,9 +71,8 @@ main p {
 }
 
 /*============= MAIN =============*/
-
 .main {
-  margin-top: 199px;
+  padding-top: 199px;
   grid-area: main;
   background-color: #2b292e;
   line-height: 1.5rem;
@@ -88,12 +87,6 @@ main p {
   padding: 0.5rem;
   text-align: center;
   justify-content: center;
-}
-
-.main__div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .main img,
@@ -112,7 +105,6 @@ main p {
 }
 
 /*======== MAIN SOBRE MI =========*/
-
 .main__span {
   font-style: italic;
   font-weight: bold;
@@ -202,7 +194,6 @@ ol li {
 }
 
 /*============ FOOTER ============*/
-
 .footer {
   font-size: 0.9em;
   padding: 0.5rem;
@@ -231,7 +222,6 @@ ol li {
 
 .nav__link__developer {
   display: flex;
-  /* margin-top: 0.5rem; */
 }
 
 .footer__text {
@@ -247,14 +237,17 @@ ol li {
   margin: 0.2rem;
 }
 
+/* ================================= */
 /* ======= MEDIA QUERY 768px ======= */
+/* ================================= */
+
 @media screen and (min-width: 768px) {
   /* ======= BODY ======= */
   .body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 110px auto 40px;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "header"
       "main"
@@ -267,18 +260,17 @@ ol li {
   }
 
   /*============= MAIN =============*/
-
   .main {
-    margin-top: 0;
+    padding-top: 110px;
   }
 
   /*========= MAIN GALERY ==========*/
   .galery__photos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
     gap: 0.5rem;
-    margin: 1rem 7rem 1rem 7rem;
+    margin: 1rem 7rem;
   }
 
   /* ======= FOOTER ======= */
@@ -309,14 +301,16 @@ ol li {
   }
 }
 
+/* ================================= */
 /* ======= MEDIA QUERY 1024px ======= */
+/* ================================= */
 @media screen and (min-width: 1024px) {
   /* ======= BODY ======= */
   .body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto 40px;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "header"
       "main"
@@ -338,18 +332,15 @@ ol li {
   }
   /*============= MAIN =============*/
   .main {
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
-  .main__title {
-    margin-top: 1rem;
-  }
-
   .main__container {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
