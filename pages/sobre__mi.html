@@ -1,96 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Emanuel Escudero" />
-    <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
-    <meta name="robots" content="index" />
 
-    <!-- FAV ICON // TITLE -->
-    <link rel="icon" href="../assets/icons/favIconED.png" />
-    <title>ED Guitars</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Emanuel Escudero" />
+  <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
+  <meta name="robots" content="index" />
 
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&family=Raleway:wght@200;500;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- FAV ICON // TITLE -->
+  <link rel="icon" href="../assets/icons/favIconED.png" />
+  <title>ED Guitars</title>
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&family=Raleway:wght@200;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- ANIMACIONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- ANIMACIONES -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <!-- CSS BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- CSS CUSTOM -->
+  <link rel="stylesheet" href="../css/style.css" />
 
-    <!--CSS-->
-    <link rel="stylesheet" href="../css/style.css" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
+    defer></script>
+</head>
 
-    <!--JS-->
-    <script src="../js/main.js" defer></script>
-  </head>
+<!--================== BODY ==================-->
 
-  <!--CUERPO DEL SITIO-->
+<body class="d-flex flex-column min-vh-100">
 
-  <body class="body">
-    <!--CABECERA DEL SITIO-->
-    <header class="header">
-      <!--LOGO DE CABECERA-->
-
-      <a
-        class="header__logo animate__animated animate__backInDown"
-        href="../index.html"
-      >
-        <img src="../assets/images/logo04.png" alt="logo de ED Guitars" />
-      </a>
-
-      <!--BAR NAV CABECERA-->
-      <nav class="header__nav">
-        <ul class="nav__list">
-          <li>
-            <a class="nav__link" href="../index.html">Inicio</a>
-          </li>
-          <li>
-            <a class="nav__link" href="guitars.html">Guitars</a>
-          </li>
-          <li>
-            <a class="nav__link" href="galeria.html">Galería</a>
-          </li>
-          <li>
-            <a class="nav__link" id="link__activo" href="sobre__mi.html"
-              >Sobre Mí</a
-            >
-          </li>
-          <li>
-            <a class="nav__link" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!--MAIN DEL SITIO-->
-    <main class="main">
-      <div class="main__div">
-        <h3 class="main__title">Daniel Escudero</h3>
-      </div>
-      <div class="main__div main__container">
-        <div class="main__div">
-          <img
-            class="main__div__image"
-            src="../assets/images/sobre_mi.jpg"
-            alt="Foto de Daniel Escudero"
-          />
+  <!--================== HEADER ==================-->
+  <header class="sticky-top" id="header">
+    <nav class="navbar navbar-expand-md nav-bar-black bg-black">
+      <div class="container-fluid align-items-end col-sm-10 .offset-md-3">
+        <a class="navbar-brand" href="../index.html">
+          <img class="row ms-auto logo-principal" src="../assets/images/logo04.png" alt="Logo de ED Guitars" />
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto align-items-center">
+            <a class="nav-link text-white link" href="../index.html">Inicio</a>
+            <a class="nav-link text-white link" href="./guitars.html">Guitars</a>
+            <a class="nav-link text-black" id="link__activo" href="./sobre__mi.html">Sobre Mí</a>
+            <a class="nav-link text-white link" href="./contacto.html">Contacto</a>
+            <a class="nav-link text-white link" href="./galeria.html">Galería</a>
+          </div>
         </div>
-        <div class="main__div">
-          <p class="main__div__text">
+      </div>
+    </nav>
+  </header>
+
+
+  <!--================== MAIN ==================-->
+  <main>
+    <div class="container text-center text-light my-2">
+      <div class="row align-items-center">
+        <!-- TITLE -->
+        <div class="col-sm-12">
+          <h2 class="h2"> <strong> <em> Daniel Escudero </strong> </em> </h2>
+        </div>
+        <!-- IMG PRINCIPAL -->
+        <div class="col-md-6">
+          <img class="img-fluid rounded" src="../assets/images/sobre_mi.jpg"
+            alt="Fotografía del luthier Daniel Escudero" />
+        </div>
+        <!-- TEXTO -->
+        <div class="col-md-6 my-4">
+          <p class="">
             Nací en la provincia de Mendoza en 1990. Justamente el logo hace
             alusión a 2 características importantes de mi provincia, como lo son
             las montañas y el cóndor.
           </p>
-          <p class="main__div__text">
+          <p>
             Viviendo en Buenos Aires desde el 2010. Licenciado en Educación
             Física y guitarrista amateur. Principalmente ejerzo la docencia en
             nivel inicial y medio. Aunque el amor por la guitarra, me llevó a en
@@ -101,78 +94,64 @@
             Es un camino que a penas comienza, libre de prejuicios, pleno de
             disfrute.
           </p>
-          <p class="main__div__text">
-            <span class="main__span">
+          <p>
+            <em>
               "Porque la meta no tiene sentido, si no disfrutamos del camino".
-            </span>
+            </em>
           </p>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!--FOOTER DEL SITIO-->
-    <footer class="footer">
-      <nav class="nav__footer">
-        <ul class="nav__list__footer">
-          <li class="nav__list__li">
-            <a
-              class="nav__link--footer"
-              href="https://www.instagram.com/edguitars_/"
-              target="_blank"
-            >
-              <img
-                class="nav__icon"
-                src="../assets/icons/instagram3.png"
-                alt="Ícono de Enlace a Instagram"
-              />
-              <p class="footer__text">Instagram</p>
+
+  <!--================== FOOTER ==================-->
+  <div class="container-fluid bg-black mt-auto ">
+    <footer class="d-flex flex-wrap py-3 justify-content-center align-items-center">
+
+
+      <!-- Footer Propietario -->
+      <div class="d-flex">
+        <ul class="nav row-md-6 justify-content-start list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted text-decoration-none" href="https://www.instagram.com/edguitars_/" target="_blank">
+              <img src="../assets/icons/instagram3.png" class="bi" width="24" height="24"
+                alt="Icono de enlace al Instagram de ED Guitars" />
+              <span class="icon-social" id="span-dev">
+                Instagram
+              </span>
             </a>
           </li>
-          <li class="nav__list__li">
-            <a
-              class="nav__link--footer"
-              href="https://wa.me/5491137575625"
-              target="_blank"
-            >
-              <img
-                class="nav__icon"
-                src="../assets/icons/whatsapp5.png"
-                alt="Ícono de Enlace a Whatsapp"
-              />
-              <p class="footer__text">Whatsapp</p>
+          <li class="ms-3">
+            <a class="text-muted text-decoration-none" href="https://wa.me/5491137575625" target="_blank">
+              <img src="../assets/icons/whatsapp5.png" class="bi" width="24" height="24"
+                alt="Icono de enlace al Whatsapp de ED Guitars" />
+              <span class="icon-social" id="span-dev">
+                Whatsapp
+              </span>
             </a>
           </li>
         </ul>
-      </nav>
-      <div class="footer__developer">
-        <div class="nav__link__developer">
-          <p class="footer__text">Sitio Desarrollado por Emanuel Escudero</p>
-        </div>
-        <div class="nav__link__developer">
-          <a
-            class="nav__link--footer"
-            href="https://www.linkedin.com/in/emanuel-escudero-657675b7/"
-            target="_blank"
-          >
-            <img
-              class="nav__icon"
-              src="../assets/icons/linkedin.png"
-              alt="Ícono de Enlace a LinkedIn del Desarrollador"
-            />
-          </a>
-          <a
-            class="nav__link--footer"
-            href="https://github.com/escuderoemanuel"
-            target="_blank"
-          >
-            <img
-              class="nav__icon"
-              src="../assets/icons/github.png"
-              alt="Ícono de Enlace a GitHub del Desarrollador"
-            />
-          </a>
-        </div>
       </div>
+
+      <!-- Footer Desarrollador -->
+      <div class="col-md-6 d-flex justify-content-end align-items-center">
+        <span class="mx-2" id="span-dev">Site developed by Emanuel Escudero
+        </span>
+
+        <a href="https://github.com/escuderoemanuel" target="_blank">
+          <img class="mx-1 icon-dev" src="../assets/icons/github.png"
+            alt="Icono de enlace al GitHub del Desarrollador del sitio" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank">
+          <img class="mx-1 icon-dev" src="../assets/icons/linkedin.png"
+            alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
+        </a>
+      </div>
+
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
