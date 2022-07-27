@@ -76,7 +76,10 @@
               <a class="nav-link text-white link" href="./guitars.html"
                 >Guitars</a
               >
-              <a class="nav-link text-white" href="./sobre__mi.html"
+              <a class="nav-link text-white link" href="./galeria.html"
+                >Galería</a
+              >
+              <a class="nav-link text-white link" href="./sobre__mi.html"
                 >Sobre Mí</a
               >
               <a
@@ -85,139 +88,152 @@
                 href="./contacto.html"
                 >Contacto</a
               >
-              <a class="nav-link text-white link" href="./galeria.html"
-                >Galería</a
-              >
             </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <!--MAIN DEL SITIO-->
-    <main class="main">
-      <div class="main__container" id="main__container--alignStart">
-        <!--FORM CONTACTO-->
-        <article class="main__div">
-          <form action="" id="form">
-            <div class="form__item">
-              <h3 class="main__title">Dejanos tu consulta</h3>
-            </div>
+    <main>
+      <div class="container text-light my-2">
+        <div class="row align-items-start">
+          <!--==================== PRUEBA ====================-->
 
-            <div class="form__item">
-              <label for="nombre"></label>
+          <!--==================== PRUEBA ====================-->
+
+          <!-- FORMULARIO -->
+          <form class="col-md-6">
+            <!-- NAME -->
+            <div class="mb-1">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
               <input
-                class="form__text"
                 type="text"
-                name="nombre"
-                id="nombre"
-                placeholder="Nombre y Apellido"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Input your name"
                 required
               />
             </div>
 
-            <div class="form__item">
-              <label for="email"></label>
+            <!-- EMAIL -->
+            <div class="mb-1">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
               <input
-                class="form__text"
                 type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Input your email"
                 required
               />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
             </div>
 
-            <div class="form__item">
-              <label>
+            <!-- RATIO -->
+            <div class="mb-2">
+              <div class="form-check">
                 <input
-                  class="form__radio"
+                  class="form-check-input"
                   type="radio"
-                  name="tipoGuitarra"
-                  value="Eléctrica"
-                  required
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
                 />
-                Guitarra Eléctrica
-              </label>
-
-              <label>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Electric Guitar
+                </label>
+              </div>
+              <div class="form-check">
                 <input
-                  class="form__radio"
+                  class="form-check-input"
                   type="radio"
-                  name="tipoGuitarra"
-                  value="Acústica"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
                 />
-                Guitarra Acústica
-              </label>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Acoustic Guitar
+                </label>
+              </div>
             </div>
 
-            <div class="form__item">
-              <label class="form__list" for="motivo">Servicio:</label>
-              <select class="form__text form__select" name="servicio">
-                <option value="contruccion">Construcción</option>
-                <option value="reparacion">Reparación</option>
-                <option value="calibracion">Calibración</option>
+            <!-- SERVICE TYPE -->
+            <div class="col-md-3 mb-2">
+              <label for="validationCustom04" class="form-label">Option</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Building</option>
+                <option>Repair</option>
+                <option>Service</option>
               </select>
             </div>
 
-            <div class="form__item">
-              <label for="mensaje"></label>
+            <!-- MESSAGE -->
+            <div class="mb-2">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
               <textarea
-                class="form__text form__mensaje"
-                name="Mensaje"
-                id="mensaje"
-                cols="30"
-                rows="10"
-                placeholder="Mensaje"
-              >
-              </textarea>
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter your message"
+                required
+              ></textarea>
             </div>
 
-            <div class="form__item">
-              <input type="checkbox" name="terminos" value="1" required />
-              <label for="terminos"
-                >Acepta los
+            <!-- TERMS -->
+            <div class="form-check form-switch mb-2">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+                required
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault">
+                Agree to
                 <a
-                  class="form__terminos"
-                  href="terminos__condiciones.html"
+                  href="./terminos__condiciones.html"
                   target="_blank"
-                  >Términos y Condiciones</a
-                >
-              </label>
+                  class="text-white fw-bold text-decoration-none"
+                  ><em>terms and conditions</em>
+                </a></label
+              >
             </div>
 
-            <div class="form__item">
-              <button
-                class="form__text"
-                id="button"
-                name="enviar"
-                type="submit"
-                value="submitted_value"
-              >
-                ENVIAR
-              </button>
+            <!-- SUBMIT -->
+            <div class="d-grid gap-2 mb-2">
+              <button type="submit" class="btn btn-primary mb-2">Submit</button>
             </div>
           </form>
-        </article>
 
-        <!--MAP-->
-        <section class="main__div">
-          <div class="main__map__item">
-            <h4 class="main__title">Ubicación</h4>
+          <!--MAP -->
+
+          <div class="col-md-6">
+            <div class="text-center">
+              <h5 class="h5">
+                <strong> <em> Ubicación </em> </strong>
+              </h5>
+            </div>
+            <div>
+              <iframe
+                class="iframe rounded mb-2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26253.896770376636!2d-58.38516178167002!3d-34.66134189901687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3335230bd052b%3A0x9d632a18eea90a31!2sAvellaneda%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655596175959!5m2!1ses!2sar"
+                width="100%"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
           </div>
-          <div class="main__map__item">
-            <iframe
-              class="iframe"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26253.896770376636!2d-58.38516178167002!3d-34.66134189901687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3335230bd052b%3A0x9d632a18eea90a31!2sAvellaneda%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655596175959!5m2!1ses!2sar"
-              width="100%"
-              height="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </section>
+        </div>
       </div>
     </main>
 
