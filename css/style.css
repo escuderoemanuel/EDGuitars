@@ -1,46 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #222222;
+  font-family: "Raleway", "Poppins", sans-serif;
+}
+
+.footer {
+  background-color: #000000;
+  color: #6b6b6b;
+  font-family: "Raleway", "Poppins", sans-serif;
+  font-size: 1em;
+}
+.footer #text-footer {
+  color: #6b6b6b;
+}
+.footer #text-footer:hover {
+  color: #d4d4d4;
+  font-weight: bold;
+  transition: all 200ms ease;
+}
+.footer .icon-dev {
+  filter: invert(42%) sepia(5%) saturate(5%) hue-rotate(3deg) brightness(96%) contrast(85%);
+}
+.footer .icon-dev:hover {
+  filter: invert(96%) sepia(0%) saturate(2301%) hue-rotate(192deg) brightness(88%) contrast(95%);
+  transition: all 200ms ease;
 }
 
 #header {
-  box-shadow: 0px 0px 4px #ffffffb9;
+  box-shadow: 0px 0px 4px rgba(212, 212, 212, 0.7254901961);
+  background-color: #000000;
 }
-
-.icon-dev {
-  filter: invert(29%) sepia(0%) saturate(326%) hue-rotate(214deg)
-    brightness(97%) contrast(90%);
+#header .navbar-brand {
+  padding: 0;
 }
-
-.icon-dev:hover {
-  filter: invert(96%) sepia(29%) saturate(4221%) hue-rotate(181deg)
-    brightness(106%) contrast(106%);
+#header button {
+  background-color: #f0f0f0;
+}
+#header .navbar-nav {
+  margin-top: 1rem;
+}
+#header .navbar-nav .nav-link {
+  font-size: 1em;
+  color: #f0f0f0;
+  padding: 0 0.3rem;
+}
+#header .navbar-nav .nav-link:hover {
+  transform: scale(1.05);
   transition: all 200ms ease;
 }
-
-.icon-social:hover {
-  filter: brightness(0) saturate(100%) invert(96%) sepia(29%) saturate(4221%)
-    hue-rotate(181deg) brightness(106%) contrast(106%);
-  transition: all 200ms ease;
+#header .navbar-nav #link__activo {
+  font-weight: 550;
+  border-radius: 20px;
+  background-color: #77ff00;
+  color: #000000;
 }
 
-.link:hover {
-  text-shadow: 0px -1px 5px #ffffff;
-  transition: all 0.5s ease;
+.container .card__img {
+  margin-top: 1rem;
+}
+.container .card__text {
+  padding: 1rem 3rem;
 }
 
-.link {
-  padding: 0.05rem 0.2rem;
-}
-
-#link__activo {
-  padding: 0.05rem 0.2rem;
-  /* margin: 0.5rem; */
-  background-color: #39ff39;
-  border-radius: 0.5rem;
-  /* text-decoration: 5px underline #39ff14; */
-  transition: all 200ms ease;
-}
-
-#span-dev {
-  color: gray;
-}
+/*# sourceMappingURL=style.css.map */
