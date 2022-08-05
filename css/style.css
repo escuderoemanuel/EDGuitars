@@ -20,7 +20,6 @@ body {
 }
 .footer #text-footer:hover {
   color: #d4d4d4;
-  font-weight: bold;
   transition: all 200ms ease;
 }
 .footer .icon-dev {
