@@ -1,7 +1,6 @@
 {
   "name": "ed_guitars",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
@@ -16,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/escuderoemanuel/ED_Guitars/issues"
   },
-  "homepage": "https://github.com/escuderoemanuel/ED_Guitars#readme"
+  "homepage": "https://github.com/escuderoemanuel/ED_Guitars#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
