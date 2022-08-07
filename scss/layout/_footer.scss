@@ -1,7 +1,6 @@
 .footer {
   background-color: $background-header-footer;
   color: $font-light-muted-color;
-  font-family: "Raleway", "Poppins", sans-serif;
   font-size: 1em;
 
   #text-footer {
@@ -10,6 +9,10 @@
       color: $font-light-secondary-color;
       transition: $transition-normal;
     }
+  }
+
+  #span-dev {
+    font-size: 0.95em;
   }
 
   .icon-dev {
