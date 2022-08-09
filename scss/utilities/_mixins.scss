@@ -1,0 +1,8 @@
+@mixin title__h1 {
+    color: map-get($pallete, primary);
+    font-size: 1.5em;
+    font-weight: map-get($font-weights, bd);
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}

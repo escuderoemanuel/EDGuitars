@@ -1,26 +1,34 @@
 .footer {
-  background-color: $background-header-footer;
-  color: $font-light-muted-color;
+  background-color: map-get($pallete, bg-header-footer);
+  color: map-get($pallete, muted);
   font-size: 1em;
 
   #text-footer {
-    color: $font-light-muted-color;
+    color: map-get($pallete, muted);
     &:hover {
-      color: $font-light-secondary-color;
+      color: map-get($pallete, secondary);
+      transform: scale(1.1);
       transition: $transition-normal;
     }
   }
 
-  #span-dev {
+  .span__dev {
     font-size: 0.95em;
   }
+  .icon__dev {
+    filter: invert(45%) sepia(2%) saturate(5%) hue-rotate(330deg)
+      brightness(91%) contrast(87%);
 
-  .icon-dev {
-    filter: invert(42%) sepia(5%) saturate(5%) hue-rotate(3deg) brightness(96%)
-      contrast(85%);
-    &:hover {
-      filter: invert(96%) sepia(0%) saturate(2301%) hue-rotate(192deg)
-        brightness(88%) contrast(95%);
+    &.icon__dev--github:hover {
+      transform: scale(1.1);
+      filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg)
+        brightness(120%) contrast(85%);
+      transition: all 200ms ease;
+    }
+    &.icon__dev--linkedin:hover {
+      transform: scale(1.1);
+      filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
+        brightness(96%) contrast(90%);
       transition: all 200ms ease;
     }
   }

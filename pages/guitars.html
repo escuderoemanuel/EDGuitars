@@ -1,179 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emanuel Escudero" />
+    <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
+    <meta name="robots" content="index" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Emanuel Escudero" />
-  <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
-  <meta name="robots" content="index" />
+    <!-- FAV ICON // TITLE -->
+    <link rel="icon" href="../assets/icons/favIconED.png" />
+    <title>ED Guitars</title>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&family=Raleway:wght@200;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ANIMACIONES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- FAV ICON // TITLE -->
-  <link rel="icon" href="../assets/icons/favIconED.png" />
-  <title>ED Guitars</title>
-  <!--GOOGLE FONTS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&family=Raleway:wght@200;500;700&display=swap"
-    rel="stylesheet" />
-  <!-- ANIMACIONES -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/custom.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="../css/custom.css">
+    <!-- BOOTSTRAP JS-->
+    <script src="../js/bootstrap.js" defer></script>
+  </head>
 
-  <!-- BOOTSTRAP JS-->
-  <script src="../js/bootstrap.js" defer></script>
-</head>
+  <!--================== BODY ==================-->
 
-<!--================== BODY ==================-->
+  <body class="d-flex flex-column min-vh-100">
+    <!--================== HEADER ==================-->
+    <header class="sticky-top" id="header">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid align-items-end col-sm-11">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="row ms-auto logo-principal animate__animated animate__fadeIn animate__slower"
+              src="../assets/images/logo04.png"
+              alt="Logo de ED Guitars"
+            />
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a class="nav-link link" href="../index.html">Inicio</a>
+              <a class="nav-link" id="link__activo" href="./guitars.html"
+                >Guitars</a
+              >
+              <a class="nav-link link" href="./galeria.html">Galería</a>
+              <a class="nav-link link" href="./sobre__mi.html">Sobre Mí</a>
+              <a class="nav-link link" href="./contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body class="d-flex flex-column min-vh-100">
-  <!--================== HEADER ==================-->
-  <header class="sticky-top" id="header">
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid align-items-end col-sm-11">
-        <a class="navbar-brand" href="../index.html">
-          <img class="row ms-auto logo-principal animate__animated animate__fadeIn animate__slower"
-            src="../assets/images/logo04.png" alt="Logo de ED Guitars" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto align-items-center">
-            <a class="nav-link link" href="../index.html">Inicio</a>
-            <a class="nav-link link" href="./galeria.html">Galería</a>
-            <a class="nav-link" id="link__activo" href="./guitars.html">Guitars</a>
-            <a class="nav-link link" href="./sobre__mi.html">Sobre Mí</a>
-            <a class="nav-link link" href="./contacto.html">Contacto</a>
+    <!--MAIN DEL SITIO-->
+    <main>
+      <div class="container text-center text-light my-2">
+        <div class="row align-items-start">
+          <div>
+            <h1 class="h1 title">Guitars Specs</h1>
+          </div>
+          <!-- COL LEFT -->
+          <div class="col-md-6 my-4">
+            <!-- IMG GUITAR -->
+            <img
+              class="img-fluid rounded mb-4"
+              src="../assets/images/custom_teleca/photo02.png"
+              alt="Fotografía de la guitarra eléctrica modelo Custom Teleca de ED Guitars"
+            />
+            <!-- VIDEO TEST GUITAR -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/MWPpw6P5ccM"
+                title="Fernando Culen - Test Telecaster Custom Baccaglioni"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <!-- ESPECIFICACIONES GUITAR -->
+          <div class="col-md-6 my-3 text-start">
+            <h5 class="h5 mx-3">Especificaciones:</h5>
+            <ul class="text-start">
+              <li>Neck Material: Arce</li>
+              <li>Neck Construction: 4-Bolt</li>
+              <li>Neck Shape: Deep "C"</li>
+              <li>Fingerboard Material: Maple</li>
+              <li>Scale Length: 25.5" (64.77 cm)</li>
+              <li>Fingerboard Radius: 9.5" (241 mm)</li>
+              <li>Fret Size: Narrow Tall</li>
+              <li>Nut Width: 1.685" (42.8 mm)</li>
+              <li>Nut Material: Hueso</li>
+              <li>Side Dots: Black</li>
+              <li>Number of Frets: 22</li>
+              <li>Position Inlays: Incrustaciones de punto negro</li>
+              <li>
+                Switching: 3-Position Toggle: Position 1. Bridge Pickup,
+                Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+              </li>
+              <li>
+                Auxillary Switching: Push-Push Tone Controls Activate Double
+                Tap™ Function
+              </li>
+              <li>Bridge Pickup: V-Mod II Double Tap™ Humbucking</li>
+              <li>Neck Pickup: V-Mod II Double Tap™ Humbucking</li>
+              <li>
+                Controls; Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup),
+                Tone 1. (Neck Pickup), Tone 2. (Bridge Pickup)
+              </li>
+              <li>
+                Switching: 3-Position Toggle: Position 1. Bridge Pickup,
+                Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+              </li>
+              <li>
+                Bridge: 3-Saddle Custom "Cut-Off" Vintage-Style Tele® Bridge
+                with Compensated Brass Saddles
+              </li>
+              <li>Tuning Machines: Fender® Standard Cast/Sealed Staggered</li>
+              <li>Control Knobs: Aged White "Witch Hat"</li>
+              <li>Neck Plate: 4-Bolt</li>
+              <li>Hardware Finish: Nickel/Chrome</li>
+              <li>Pickguard: 3-Ply Black</li>
+              <li>Switch Tip: Aged White</li>
+              <li>
+                Strings: Fender® USA 250L Nickel Plated Steel (.009-.042
+                Gauges), PN 0730250403
+              </li>
+              <li>Case/Gig Bag: Deluxe Molded Case (Included)</li>
+            </ul>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <!--MAIN DEL SITIO-->
-  <main>
-    <div class="container text-center text-light my-2">
-      <div class="row align-items-start">
-        <!-- COL LEFT -->
-        <div class="col-md-6 my-4">
-          <!-- IMG GUITAR -->
-          <img class="img-fluid rounded mb-4" src="../assets/images/custom_teleca/photo02.png"
-            alt="Fotografía de la guitarra eléctrica modelo Custom Teleca de ED Guitars" />
-          <!-- VIDEO TEST GUITAR -->
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/MWPpw6P5ccM"
-              title="Fernando Culen - Test Telecaster Custom Baccaglioni" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <!-- ESPECIFICACIONES GUITAR -->
-        <div class="col-md-6 my-3 text-start">
-          <h5 class="h5 mx-3"> <strong> <em>Especificaciones:</strong> </em> </h5>
-          <ul class="text-start">
-            <li>Neck Material: Arce</li>
-            <li>Neck Construction: 4-Bolt</li>
-            <li>Neck Shape: Deep "C"</li>
-            <li>Fingerboard Material: Maple</li>
-            <li>Scale Length: 25.5" (64.77 cm)</li>
-            <li>Fingerboard Radius: 9.5" (241 mm)</li>
-            <li>Fret Size: Narrow Tall</li>
-            <li>Nut Width: 1.685" (42.8 mm)</li>
-            <li>Nut Material: Hueso</li>
-            <li>Side Dots: Black</li>
-            <li>Number of Frets: 22</li>
-            <li>Position Inlays: Incrustaciones de punto negro</li>
-            <li>
-              Switching: 3-Position Toggle: Position 1. Bridge Pickup,
-              Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+    <!--================== FOOTER ==================-->
+    <div class="footer container-fluid mt-auto">
+      <footer
+        class="footer d-flex flex-wrap py-1 justify-content-center align-items-center"
+      >
+        <!-- Footer Propietario -->
+        <div class="d-flex">
+          <ul class="nav row-md-6 justify-content-start list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-decoration-none"
+                href="https://www.instagram.com/edguitars_/"
+                target="_blank"
+              >
+                <img
+                  src="../assets/icons/instagram3.png"
+                  class="bi"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Instagram de ED Guitars"
+                />
+                <span class="icon-social" id="text-footer"> Instagram </span>
+              </a>
             </li>
-            <li>
-              Auxillary Switching: Push-Push Tone Controls Activate Double
-              Tap™ Function
+            <li class="ms-3">
+              <a
+                class="text-decoration-none"
+                href="https://wa.me/5491137575625"
+                target="_blank"
+              >
+                <img
+                  src="../assets/icons/whatsapp5.png"
+                  class="bi"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Whatsapp de ED Guitars"
+                />
+                <span class="icon-social" id="text-footer"> Whatsapp </span>
+              </a>
             </li>
-            <li>Bridge Pickup: V-Mod II Double Tap™ Humbucking</li>
-            <li>Neck Pickup: V-Mod II Double Tap™ Humbucking</li>
-            <li>
-              Controls; Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup),
-              Tone 1. (Neck Pickup), Tone 2. (Bridge Pickup)
-            </li>
-            <li>
-              Switching: 3-Position Toggle: Position 1. Bridge Pickup,
-              Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
-            </li>
-            <li>
-              Bridge: 3-Saddle Custom "Cut-Off" Vintage-Style Tele® Bridge
-              with Compensated Brass Saddles
-            </li>
-            <li>Tuning Machines: Fender® Standard Cast/Sealed Staggered</li>
-            <li>Control Knobs: Aged White "Witch Hat"</li>
-            <li>Neck Plate: 4-Bolt</li>
-            <li>Hardware Finish: Nickel/Chrome</li>
-            <li>Pickguard: 3-Ply Black</li>
-            <li>Switch Tip: Aged White</li>
-            <li>
-              Strings: Fender® USA 250L Nickel Plated Steel (.009-.042
-              Gauges), PN 0730250403
-            </li>
-            <li>Case/Gig Bag: Deluxe Molded Case (Included)</li>
           </ul>
         </div>
-      </div>
+
+        <!-- Footer Desarrollador -->
+        <div class="col-md-6 d-flex justify-content-end align-items-center">
+          <span class="mx-2" id="span__dev"
+            >Site developed by Emanuel Escudero
+          </span>
+
+          <a href="https://github.com/escuderoemanuel" target="_blank">
+            <img
+              class="mx-1 icon__dev icon__dev--github"
+              src="../assets/icons/github.png"
+              alt="Icono de enlace al GitHub del Desarrollador del sitio"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/emanuel-escudero-657675b7/"
+            target="_blank"
+          >
+            <img
+              class="mx-1 icon__dev icon__dev--linkedin"
+              src="../assets/icons/linkedin.png"
+              alt="Icono enlace al LinkedIn del Desarrollador del sitio"
+            />
+          </a>
+        </div>
+      </footer>
     </div>
-  </main>
-
-  <!--================== FOOTER ==================-->
-  <div class=" footer container-fluid mt-auto ">
-    <footer class="footer d-flex flex-wrap py-1 justify-content-center align-items-center">
-
-
-      <!-- Footer Propietario -->
-      <div class="d-flex">
-        <ul class="nav row-md-6 justify-content-start list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://www.instagram.com/edguitars_/" target="_blank">
-              <img src="../assets/icons/instagram3.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Instagram de ED Guitars" />
-              <span class="icon-social" id="text-footer">
-                Instagram
-              </span>
-            </a>
-          </li>
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://wa.me/5491137575625" target="_blank">
-              <img src="../assets/icons/whatsapp5.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Whatsapp de ED Guitars" />
-              <span class="icon-social" id="text-footer">
-                Whatsapp
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Footer Desarrollador -->
-      <div class="col-md-6 d-flex justify-content-end align-items-center">
-        <span class="mx-2" id="span-dev">Site developed by Emanuel Escudero
-        </span>
-
-        <a href="https://github.com/escuderoemanuel" target="_blank">
-          <img class="mx-1 icon-dev" src="../assets/icons/github.png"
-            alt="Icono de enlace al GitHub del Desarrollador del sitio" />
-        </a>
-
-        <a href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank">
-          <img class="mx-1 icon-dev" src="../assets/icons/linkedin.png"
-            alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
-        </a>
-      </div>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>

@@ -1,138 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emanuel Escudero" />
+    <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
+    <meta name="robots" content="index" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Emanuel Escudero" />
-  <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
-  <meta name="robots" content="index" />
+    <!-- FAV ICON // TITLE -->
+    <link rel="icon" href="assets/icons/favIconED.png" />
+    <title>ED Guitars</title>
 
-  <!-- FAV ICON // TITLE -->
-  <link rel="icon" href="assets/icons/favIconED.png" />
-  <title>ED Guitars</title>
+    <!-- ANIMACIONES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- ANIMACIONES -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/custom.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/custom.css">
+    <!-- BOOTSTRAP JS-->
+    <script src="./js/bootstrap.js" defer></script>
+  </head>
 
-  <!-- BOOTSTRAP JS-->
-  <script src="./js/bootstrap.js" defer></script>
+  <!--================== BODY ==================-->
 
-</head>
+  <body class="d-flex flex-column min-vh-100">
+    <!--================== HEADER ==================-->
+    <header class="sticky-top" id="header">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid align-items-end col-sm-11">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              class="row ms-auto logo-principal animate__animated animate__fadeIn animate__slower"
+              src="./assets/images/logo04.png"
+              alt="Logo de ED Guitars"
+            />
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a class="nav-link" id="link__activo" href="./index.html"
+                >Inicio</a
+              >
+              <a class="nav-link link" href="./pages/guitars.html">Guitars</a>
+              <a class="nav-link link" href="./pages/galeria.html">Galería</a>
+              <a class="nav-link link" href="./pages/sobre__mi.html"
+                >Sobre Mí</a
+              >
+              <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<!--================== BODY ==================-->
-
-<body class="d-flex flex-column min-vh-100">
-
-  <!--================== HEADER ==================-->
-  <header class="sticky-top" id="header">
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid align-items-end col-sm-11">
-        <a class="navbar-brand" href="./index.html">
-          <img class="row ms-auto logo-principal animate__animated animate__fadeIn animate__slower"
-            src="./assets/images/logo04.png" alt="Logo de ED Guitars" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto align-items-center">
-            <a class="nav-link" id="link__activo" href="./index.html">Inicio</a>
-            <a class="nav-link link" href="./pages/galeria.html">Galería</a>
-            <a class="nav-link link" href="./pages/guitars.html">Guitars</a>
-            <a class="nav-link link" href="./pages/sobre__mi.html">Sobre Mí</a>
-            <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
+    <!--================== MAIN ==================-->
+    <main>
+      <div class="container text-center text-light my-2">
+        <div class="row align-items-start">
+          <!-- TITLE -->
+          <div class="col-sm-12">
+            <h1 class="h1 title">¡Bienvenidos a ED Guitars!</h1>
+          </div>
+          <!-- IMG PRINCIPAL -->
+          <div class="card__img col-md-6">
+            <img
+              class="img-fluid rounded"
+              src="./assets/images/nuevaPortada2.jpg"
+              alt="Fotografía Guitarra Eléctrica ED Teleca"
+            />
+          </div>
+          <!-- TEXTO -->
+          <div class="col-md-6">
+            <p class="card__text">
+              Nuestro objetivo es construir instrumentos a medida de cada
+              músico. Una herramienta única y de primera calidad. Sabemos lo
+              importante que es que te sientas cómodo e identificado con tu
+              instrumento y es por ello que te vamos a guiar paso a paso, para
+              que puedas elegir el diseño que se adecúe a tu estilo. Pero
+              también cada madera y componente, para que logres encontrar tu
+              sonido o el sonido que buscas.
+            </p>
+            <p class="card__text">
+              Además te brindamos nuestro servicio de calibración, reparación y
+              mantenimiento para tu instrumento.
+            </p>
+            <p class="card__text">
+              Te invitamos a conocer nuestro sitio y a dar el primer paso a esta
+              nueva aventura.
+            </p>
+            <p class="card__text--italic">¡Encargá tu ED Guitars!</p>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <!--================== MAIN ==================-->
-  <main>
-    <div class="container text-center text-light my-2">
-      <div class="row align-items-start">
-        <!-- TITLE -->
-        <div class="col-sm-12">
-          <h2 class="h2"> <strong> <em> ¡Bienvenidos a ED Guitars! </strong> </em> </h2>
+    <!--================== FOOTER ==================-->
+    <div class="footer container-fluid mt-auto">
+      <footer
+        class="footer d-flex flex-wrap py-1 justify-content-center align-items-center"
+      >
+        <!-- Footer Propietario -->
+        <div class="d-flex">
+          <ul class="nav row-md-6 justify-content-start list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-decoration-none"
+                href="https://www.instagram.com/edguitars_/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/icons/instagram3.png"
+                  class="bi"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Instagram de ED Guitars"
+                />
+                <span class="icon-social" id="text-footer"> Instagram </span>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-decoration-none"
+                href="https://wa.me/5491137575625"
+                target="_blank"
+              >
+                <img
+                  src="./assets/icons/whatsapp5.png"
+                  class="bi"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Whatsapp de ED Guitars"
+                />
+                <span class="icon-social" id="text-footer"> Whatsapp </span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- IMG PRINCIPAL -->
-        <div class="card__img col-md-6">
-          <img class="img-fluid rounded" src="./assets/images/nuevaPortada2.jpg"
-            alt="Fotografía Guitarra Eléctrica ED Teleca" />
+
+        <!-- Footer Desarrollador -->
+        <div class="col-md-6 d-flex justify-content-end align-items-center">
+          <span class="mx-2 span__dev"
+            >Site developed by Emanuel Escudero
+          </span>
+
+          <a href="https://github.com/escuderoemanuel" target="_blank">
+            <img
+              class="mx-1 icon__dev icon__dev--github"
+              src="./assets/icons/github.png"
+              alt="Icono de enlace al GitHub del Desarrollador del sitio"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/emanuel-escudero-657675b7/"
+            target="_blank"
+          >
+            <img
+              class="mx-1 icon__dev icon__dev--linkedin"
+              src="./assets/icons/linkedin.png"
+              alt="Icono enlace al LinkedIn del Desarrollador del sitio"
+            />
+          </a>
         </div>
-        <!-- TEXTO -->
-        <div class="col-md-6">
-          <p class="card__text">
-            Nuestro objetivo es construir instrumentos a medida de cada
-            músico. Una herramienta única y de primera calidad. Sabemos lo
-            importante que es que te sientas cómodo e identificado con tu
-            instrumento y es por ello que te vamos a guiar paso a paso, para
-            que puedas elegir el diseño que se adecúe a tu estilo. Pero
-            también cada madera y componente, para que logres encontrar tu
-            sonido o el sonido que buscas. También te brindamos nuestro
-            servicio de calibración, reparación y mantenimiento para tu
-            instrumento. Te invitamos a conocer el sitio y a dar el primer
-            paso de esta nueva aventura.
-          </p>
-        </div>
-      </div>
+      </footer>
     </div>
-  </main>
-
-
-  <!--================== FOOTER ==================-->
-  <div class=" footer container-fluid mt-auto ">
-    <footer class="footer d-flex flex-wrap py-1 justify-content-center align-items-center">
-
-
-      <!-- Footer Propietario -->
-      <div class="d-flex">
-        <ul class="nav row-md-6 justify-content-start list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://www.instagram.com/edguitars_/" target="_blank">
-              <img src="./assets/icons/instagram3.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Instagram de ED Guitars" />
-              <span class="icon-social" id="text-footer">
-                Instagram
-              </span>
-            </a>
-          </li>
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://wa.me/5491137575625" target="_blank">
-              <img src="./assets/icons/whatsapp5.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Whatsapp de ED Guitars" />
-              <span class="icon-social" id="text-footer">
-                Whatsapp
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Footer Desarrollador -->
-      <div class="col-md-6 d-flex justify-content-end align-items-center">
-        <span class="mx-2" id="span-dev">Site developed by Emanuel Escudero
-        </span>
-
-        <a href="https://github.com/escuderoemanuel" target="_blank">
-          <img class="mx-1 icon-dev" src="./assets/icons/github.png"
-            alt="Icono de enlace al GitHub del Desarrollador del sitio" />
-        </a>
-
-        <a href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank">
-          <img class="mx-1 icon-dev" src="./assets/icons/linkedin.png"
-            alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
-        </a>
-      </div>
-
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>

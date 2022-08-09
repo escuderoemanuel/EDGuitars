@@ -1,0 +1,16 @@
+.title {
+    @include title__h1
+  }
+
+
+.btn {
+  background-color: #164cff;
+  border-color: map-get($pallete, primary);
+
+  &:hover {
+    @extend .btn;
+    transform: scale(1.01);
+    font-weight: 550;
+    transition: $transition-normal;
+  }
+}

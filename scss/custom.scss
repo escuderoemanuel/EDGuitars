@@ -5,9 +5,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // _PARTIALS
+@import "./utilities/variables";
+@import "./utilities/maps";
 @import "./utilities/functions";
 @import "./utilities/mixins";
-@import "./utilities/variables";
+
 
 @import "./base/reset";
 @import "./base/globals";

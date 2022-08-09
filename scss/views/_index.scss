@@ -1,8 +1,19 @@
 .container {
+
+  .title {
+    @include title__h1
+  }
+
   .card__img {
     margin-top: 1rem;
   }
   .card__text {
-    padding: 1rem 3rem;
+    margin-top: 1rem;
+    padding: 0 3rem;
+  }
+  .card__text--italic {
+    @extend .card__text;
+    font-weight: bold;
+    font-style: italic;
   }
 }

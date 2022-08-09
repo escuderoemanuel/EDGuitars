@@ -1,13 +1,9 @@
 #header {
   box-shadow: $shadow-bottom;
-  background-color: $background-header-footer;
+  background-color: map-get($pallete, bg-header-footer);
 
   .navbar-brand {
     padding: 0;
-  }
-
-  button {
-    background-color: $font-light-primary-color;
   }
 
   .navbar-nav {
@@ -15,7 +11,7 @@
 
     .nav-link {
       font-size: 1em;
-      color: $font-light-primary-color;
+      color: map-get($pallete, primary);
       padding: 0 0.3rem;
 
       &:hover {

@@ -1,0 +1,18 @@
+$font-weights: (
+    "lg": 300,
+    "reg": 400,
+    "med": 500,
+    "bd": 700,
+    "sb": 900,
+);
+
+$pallete: (
+    "primary" : $primary,
+    "secondary" : $secondary,
+    "succes" : #77ff00,
+    "danger" : #ff0000,
+    "muted" : $muted-color,
+    "btn-color-primary" : $btn-color-primary,
+    "bg-header-footer" : $background-header-footer,
+    "bg-body" : $background-body,
+);
