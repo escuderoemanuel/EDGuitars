@@ -14,8 +14,10 @@
 
   .span__dev {
     font-size: 0.95em;
+    font-style: italic;
   }
   .icon__dev {
+    width: 20px;
     filter: invert(45%) sepia(2%) saturate(5%) hue-rotate(330deg)
       brightness(91%) contrast(87%);
 
@@ -27,8 +29,10 @@
     }
     &.icon__dev--linkedin:hover {
       transform: scale(1.1);
-      filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
-        brightness(96%) contrast(90%);
+      filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg)
+        brightness(120%) contrast(85%);
+      /* filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
+        brightness(96%) contrast(90%); */
       transition: all 200ms ease;
     }
   }

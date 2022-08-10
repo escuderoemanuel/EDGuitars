@@ -1,7 +1,6 @@
 .title {
-    @include title__h1
-  }
-
+  @include title__h1;
+}
 
 .btn {
   background-color: #164cff;
@@ -10,7 +9,7 @@
   &:hover {
     @extend .btn;
     transform: scale(1.01);
-    font-weight: 550;
+    font-weight: bold;
     transition: $transition-normal;
   }
 }

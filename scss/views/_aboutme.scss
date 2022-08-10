@@ -1,5 +1,5 @@
 .title {
-  @include title__h1
+  @include title__h1;
 }
 
 .aboutme__text {
@@ -14,6 +14,6 @@
 
 .aboutme__text--italic {
   @extend .aboutme__text;
-  font-weight: map-get($font-weights, bd);
+  font-weight: bold;
   font-style: italic;
 }

@@ -1,0 +1,23 @@
+﻿Link del repositorio en GitHub: Escudero Emanuel "ED_Guitars"
+
+
+BS / NPM / SASS:
+
+
+1. Instalación de Bootstrap con npm.
+2. Modificación de variables de Bootstrap.
+3. Creación de archivo “.gitignore” para no subir carpeta “node_modules”.
+4. Creación e importado de partials.
+5. Creación y uso de “extend” para la página “index”, “sobre mi” y en “contacto”.
+6. Creación de “maps” y uso de “map-get” para “header”,”footer”, “contacto” y “sobre mi”.
+7. Creación y uso de “mixing” para los estilos de “h1” en todas las páginas.
+
+
+SEO:
+
+
+1. Etiqueta Meta “description”.
+2. Etiqueta Meta “keywords”.
+3. Etiqueta Meta “robots”.
+4. Adecuación de encabezados “title” en cada página.
+5. Adecuación de un “h1” por página.

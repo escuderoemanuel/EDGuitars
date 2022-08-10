@@ -1,7 +1,6 @@
 .container {
-
   .title {
-    @include title__h1
+    @include title__h1;
   }
 
   .card__img {

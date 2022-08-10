@@ -1,10 +1,12 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /*!
+/*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10783,8 +10785,10 @@ body {
 }
 .footer .span__dev {
   font-size: 0.95em;
+  font-style: italic;
 }
 .footer .icon__dev {
+  width: 20px;
   filter: invert(45%) sepia(2%) saturate(5%) hue-rotate(330deg) brightness(91%) contrast(87%);
 }
 .footer .icon__dev.icon__dev--github:hover {
@@ -10794,11 +10798,17 @@ body {
 }
 .footer .icon__dev.icon__dev--linkedin:hover {
   transform: scale(1.1);
-  filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg) brightness(96%) contrast(90%);
+  filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(120%) contrast(85%);
+  /* filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
+    brightness(96%) contrast(90%); */
   transition: all 200ms ease;
 }
 
 #header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  font-weight: 500;
   box-shadow: 0px 0px 4px rgba(212, 212, 212, 0.7254901961);
   background-color: #000000;
 }
@@ -10812,13 +10822,13 @@ body {
   font-size: 1em;
   color: #f0f0f0;
   padding: 0 0.3rem;
+  font-style: italic;
 }
 #header .navbar-nav .nav-link:hover {
   transform: scale(1.05);
   transition: all 200ms ease;
 }
 #header .navbar-nav #link__activo {
-  font-weight: 550;
   border-radius: 20px;
   background-color: #77ff00;
   color: #000000;
@@ -10827,7 +10837,7 @@ body {
 .container .title {
   color: #f0f0f0;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-align: center;
@@ -10847,7 +10857,7 @@ body {
 .title {
   color: #f0f0f0;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-align: center;
@@ -10856,7 +10866,7 @@ body {
 .title {
   color: #f0f0f0;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-align: center;
@@ -10865,7 +10875,7 @@ body {
 .title {
   color: #f0f0f0;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-align: center;
@@ -10882,14 +10892,14 @@ body {
 }
 
 .aboutme__text--italic {
-  font-weight: 700;
+  font-weight: bold;
   font-style: italic;
 }
 
 .title {
   color: #f0f0f0;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-align: center;
@@ -10901,7 +10911,7 @@ body {
 }
 .btn:hover {
   transform: scale(1.01);
-  font-weight: 550;
+  font-weight: bold;
   transition: all 200ms ease;
 }
 

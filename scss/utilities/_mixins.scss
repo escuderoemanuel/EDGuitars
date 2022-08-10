@@ -1,8 +1,15 @@
 @mixin title__h1 {
-    color: map-get($pallete, primary);
-    font-size: 1.5em;
-    font-weight: map-get($font-weights, bd);
-    font-style: italic;
-    text-decoration: underline;
-    text-align: center;
+  color: map-get($pallete, primary);
+  font-size: 1.5em;
+  font-weight: map-get($font-weights, $key: sb);
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+
+@mixin font-nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  font-weight: map-get($font-weights-nav, med);
 }

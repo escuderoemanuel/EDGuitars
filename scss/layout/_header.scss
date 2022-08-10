@@ -1,4 +1,5 @@
 #header {
+  @include font-nav;
   box-shadow: $shadow-bottom;
   background-color: map-get($pallete, bg-header-footer);
 
@@ -13,6 +14,7 @@
       font-size: 1em;
       color: map-get($pallete, primary);
       padding: 0 0.3rem;
+      font-style: italic;
 
       &:hover {
         transform: scale(1.05);
@@ -21,7 +23,6 @@
     }
 
     #link__activo {
-      font-weight: 550;
       border-radius: 20px;
       background-color: #77ff00;
       color: #000000;
