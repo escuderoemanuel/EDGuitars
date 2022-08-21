@@ -14,7 +14,7 @@
   <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
   <meta name="robots" content="index" />
 
-  <!-- META OpenGraf -->
+  <!-- META OpenGraph -->
   <meta property="og:title" content="ED Guitars" />
   <meta property="og:img" content="https://i.ibb.co/sFK529k/logo04-BK-fw.png" />
   <meta property="og:author" content="Emanuel Escudero" />
@@ -54,10 +54,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto align-items-center">
             <a class="nav-link link" href="../index.html">Inicio</a>
-            <a class="nav-link link" href="./guitars.html">Guitars</a>
-            <a class="nav-link link" href="./galeria.html">Galería</a>
-            <a class="nav-link" id="link__activo" href="./sobre__mi.html">Sobre Mí</a>
-            <a class="nav-link link" href="./contacto.html">Contacto</a>
+            <a class="nav-link link" href="guitars.html">Guitars</a>
+            <a class="nav-link link" href="galeria.html">Galería</a>
+            <a class="nav-link" id="link__activo" href="sobre__mi.html">Sobre Mí</a>
+            <a class="nav-link link" href="contacto.html">Contacto</a>
           </div>
         </div>
       </div>
@@ -105,49 +105,98 @@
     </div>
   </main>
 
-  <!--================== FOOTER ==================-->
-  <div class="footer container-fluid mt-auto">
-    <footer class="footer d-flex flex-wrap py-1 justify-content-evenly align-items-center">
-      <!-- Footer Propietario -->
-      <div class="d-flex row-md-6">
-        <ul class="nav list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://www.instagram.com/edguitars_/" target="_blank"
-              title="Enlace al Instagram del luthier ED">
-              <img src="../assets/icons/instagram3.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Instagram de ED Guitars" />
-              <span class="icon-social" id="text-footer"> Instagram </span>
+  <!--================== FOOTER GENERAL ==================-->
+  <footer class="footer py-5 px-4 container-fluid mt-auto">
+
+    <!-- Footer Propietario -->
+    <div class="row px-4 justify-content-around">
+
+      <!-- Propietario Seguinos -->
+      <div class="col-md-4 px-5 mb-4">
+        <h5 class="h5 mb-4 ">Seguinos</h5>
+        <ul class="nav flex-column">
+          <li class="mb-1 footer__link--hover">
+            <a class="text-decoration-none icon-social footer__text" href="https://www.instagram.com/edguitars_/"
+              target="_blank" title="Enlace al Instagram del luthier ED">
+              <img src="../assets/icons/instagram.png" class="footer__icon me-2" width="24" height="24"
+                alt="Icono de enlace al Instagram de ED Guitars" />Instagram
             </a>
           </li>
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://wa.me/5491137575625" target="_blank"
-              title="Enlace al Whatsapp del luthier ED">
-              <img src="../assets/icons/whatsapp5.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Whatsapp de ED Guitars" />
-              <span class="icon-social" id="text-footer"> Whatsapp </span>
+          <li class="mb-1 footer__link--hover">
+            <a class="text-decoration-none icon-social footer__text" href="https://facebook.com" target="_blank"
+              title="Enlace al Facebook del luthier ED">
+              <img src="../assets/icons/facebook.png" class="footer__icon me-2" width="24" height="24"
+                alt="Icono de enlace al Facebook de ED Guitars" />Facebook
+            </a>
+          </li>
+          <li class="mb-1 footer__link--hover">
+            <a class="text-decoration-none icon-social footer__text" href="https://twitter.com" target="_blank"
+              title="Enlace al Twitter del luthier ED">
+              <img src="../assets/icons/twitter.png" class="footer__icon me-2" width="24" height="24"
+                alt="Icono de enlace al Twitter de ED Guitars" />Twitter
+            </a>
+          </li>
+          <li class="mb-1 footer__link--hover">
+            <a class="text-decoration-none icon-social footer__text" href="https://www.youtube.com/" target="_blank"
+              title="Enlace al YouTube del luthier ED">
+              <img src="../assets/icons/youtube.png" class="footer__icon me-2" width="24" height="24"
+                alt="Icono de enlace al YouTube de ED Guitars" />YouTube
             </a>
           </li>
         </ul>
       </div>
 
-      <!-- Footer Desarrollador -->
-      <div class="row-md-6 d-flex">
-        <span class="mx-2 span__dev">Powered by Emanuel Escudero </span>
-
-        <a class="d-flex" href="https://github.com/escuderoemanuel" target="_blank"
-          title="Enlace al Instagram del desarrollador del sitio">
-          <img class="mx-1 icon__dev icon__dev--github" src="../assets/icons/github.png"
-            alt="Icono de enlace al GitHub del Desarrollador del sitio" />
-        </a>
-
-        <a class="d-flex" href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank"
-          title="Enlace al LinkedIn del desarrollador del sitio">
-          <img class="mx-1 icon__dev icon__dev--linkedin" src="../assets/icons/linkedin.png"
-            alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
-        </a>
+      <!-- Propietario Nosotros -->
+      <div class="col-md-4 mb-4 px-5">
+        <h5 class="h5 mb-4">Nosotros</h5>
+        <ul class=" nav flex-column justify-content-center">
+          <li>Giribone 3695<img src="../assets/icons/location-pointer.png" class="footer__icon ms-2 " width="24"
+              height="24" alt="Icono de ubicación de ED Guitars" /></li>
+          <li>Avellaneda</li>
+          <li>Buenos Aires</li>
+          <li>Argentina</li>
+          <li>+54 11 12 345 678<img src="../assets/icons/phone-call.png" class="footer__icon ms-2 " width="24"
+              height="24" alt="Icono de teléfono de ED Guitars" /></li>
+        </ul>
       </div>
-    </footer>
-  </div>
+
+      <!-- Propietario Suscribite -->
+      <div class="col-md-4 mb-4">
+        <form>
+          <h5 class="h5 mb-4">Suscribite a nuestro newsletter</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Escribe tu email">
+            <button class="btn btn-primary" type="button">Suscribirme</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Desarrollador -->
+    <div class="text-center pt-4 border-top">
+      <h6 class="h6">© 2022 | Todos los derechos reservados</h6>
+      <h6 class="h6">• Powered by Emanuel Escudero • </h6>
+      <ul class="list-unstyled d-flex justify-content-center ">
+        <li>
+          <a href="https://github.com/escuderoemanuel" target="_blank"
+            title="Enlace al GitHub del desarrollador del sitio">
+            <img class="footer__icon footer__icon--dev ms-2" width="24" height="24" src="../assets/icons/github.png"
+              alt="Icono de enlace al GitHub del Desarrollador del sitio" />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank"
+            title="Enlace al LinkedIn del desarrollador del sitio">
+            <img class="footer__icon footer__icon--dev ms-2" width="24" height="24" src="../assets/icons/linkedin.png"
+              alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
 </body>
 
 </html>

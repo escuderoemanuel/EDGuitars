@@ -10771,36 +10771,45 @@ body {
 }
 
 .footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  font-weight: 400;
   background-color: #000000;
   color: #6b6b6b;
-  font-size: 1em;
 }
-.footer #text-footer {
+.footer .h5,
+.footer .h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #d4d4d4;
+}
+.footer .footer__text {
   color: #6b6b6b;
 }
-.footer #text-footer:hover {
-  color: #d4d4d4;
-  transform: scale(1.1);
+.footer .footer__text:hover {
+  filter: invert(41%) sepia(73%) saturate(2430%) hue-rotate(306deg) brightness(101%) contrast(101%);
   transition: all 200ms ease;
 }
-.footer .span__dev {
-  font-size: 0.95em;
-  font-style: italic;
-}
-.footer .icon__dev {
-  width: 20px;
-  filter: invert(45%) sepia(2%) saturate(5%) hue-rotate(330deg) brightness(91%) contrast(87%);
-}
-.footer .icon__dev.icon__dev--github:hover {
-  transform: scale(1.1);
-  filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(120%) contrast(85%);
+.footer .footer__text:hover:active {
+  filter: invert(100%) sepia(2%) saturate(1296%) hue-rotate(202deg) brightness(117%) contrast(88%);
   transition: all 200ms ease;
 }
-.footer .icon__dev.icon__dev--linkedin:hover {
-  transform: scale(1.1);
-  filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(120%) contrast(85%);
-  /* filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
-    brightness(96%) contrast(90%); */
+.footer .footer__icon {
+  filter: invert(44%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(95%);
+}
+.footer .footer__icon--dev {
+  border-radius: 50%;
+}
+.footer .footer__icon--dev:hover {
+  transform: scale(1.05);
+  filter: invert(100%) sepia(2%) saturate(1296%) hue-rotate(202deg) brightness(117%) contrast(88%);
+  transition: all 200ms ease;
+}
+.footer .footer__icon--dev:hover:active {
+  filter: invert(44%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(95%);
   transition: all 200ms ease;
 }
 
