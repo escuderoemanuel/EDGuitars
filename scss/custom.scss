@@ -2,19 +2,13 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // _PARTIALS
-@import "./utilities/variables";
-@import "./utilities/maps";
-@import "./utilities/mixins";
+@import "utilities/variables";
+@import "utilities/maps";
+@import "utilities/mixins";
 
-@import "./base/reset";
-@import "./base/globals";
-@import "./base/typo.scss";
+@import "base/reset";
+@import "base/globals";
+@import "base/typo.scss";
 
-@import "./layout/footer";
-@import "./layout/header";
-
-@import "./views/index";
-@import "./views/guitars";
-@import "./views/galery";
-@import "./views/aboutme";
-@import "./views/contact";
+@import "layout/footer";
+@import "layout/header";
