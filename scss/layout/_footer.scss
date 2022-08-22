@@ -1,39 +1,45 @@
 .footer {
+  @include font-nav-footer;
   background-color: map-get($pallete, bg-header-footer);
   color: map-get($pallete, muted);
-  font-size: 1em;
 
-  #text-footer {
+  .h5,
+  .h6 {
+    @include font-nav-footer;
+    color: map-get($pallete, secondary);
+  }
+
+  .footer__text {
     color: map-get($pallete, muted);
     &:hover {
-      color: map-get($pallete, secondary);
-      transform: scale(1.1);
+      filter: invert(41%) sepia(73%) saturate(2430%) hue-rotate(306deg)
+        brightness(101%) contrast(101%);
       transition: $transition-normal;
+      &:active {
+        filter: invert(100%) sepia(2%) saturate(1296%) hue-rotate(202deg)
+          brightness(117%) contrast(88%);
+        transition: $transition-normal;
+      }
     }
   }
 
-  .span__dev {
-    font-size: 0.95em;
-    font-style: italic;
+  .footer__icon {
+    filter: invert(44%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%)
+      contrast(95%);
   }
-  .icon__dev {
-    width: 20px;
-    filter: invert(45%) sepia(2%) saturate(5%) hue-rotate(330deg)
-      brightness(91%) contrast(87%);
 
-    &.icon__dev--github:hover {
-      transform: scale(1.1);
-      filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg)
-        brightness(120%) contrast(85%);
-      transition: all 200ms ease;
-    }
-    &.icon__dev--linkedin:hover {
-      transform: scale(1.1);
-      filter: invert(64%) sepia(0%) saturate(0%) hue-rotate(145deg)
-        brightness(120%) contrast(85%);
-      /* filter: invert(47%) sepia(98%) saturate(1120%) hue-rotate(196deg)
-        brightness(96%) contrast(90%); */
-      transition: all 200ms ease;
+  .footer__icon--dev {
+    border-radius: 50%;
+    &:hover {
+      transform: scale(1.05);
+      filter: invert(100%) sepia(2%) saturate(1296%) hue-rotate(202deg)
+        brightness(117%) contrast(88%);
+      transition: $transition-normal;
+      &:active {
+        filter: invert(44%) sepia(0%) saturate(0%) hue-rotate(35deg)
+          brightness(94%) contrast(95%);
+        transition: $transition-normal;
+      }
     }
   }
 }

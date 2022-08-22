@@ -1,187 +1,351 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale-5.0"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale-5.0" />
+    <meta
+      name="description"
+      content="Guitarras y bajos eléctricos hechas a mano por el luthier Daniel Escudero. Customizadas a tu medida."
+    />
 
-  <meta name="description"
-    content="Guitarras y bajos eléctricos hechas a mano por el luthier Daniel Escudero. Customizadas a tu medida." />
+    <meta
+      name="keywords"
+      content="guitarra, guitar, bass, bajo, eléctrico, electric, luthier, custom, Daniel Escudero"
+    />
+    <meta name="author" content="Emanuel Escudero" />
+    <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
+    <meta name="robots" content="index" />
 
-  <meta name="keywords" content="guitarra, guitar, bass, bajo, eléctrico, electric, luthier, custom, Daniel Escudero" />
-  <meta name="author" content="Emanuel Escudero" />
-  <meta name="copyright" content="Emanuel Escudero & ED Guitars" />
-  <meta name="robots" content="index" />
+    <!-- META OpenGraph -->
+    <meta property="og:title" content="ED Guitars" />
+    <meta
+      property="og:img"
+      content="https://i.ibb.co/sFK529k/logo04-BK-fw.png"
+    />
+    <meta property="og:author" content="Emanuel Escudero" />
+    <meta
+      property="og:description"
+      content="Guitarras y bajos eléctricos hechas a mano por el luthier Daniel Escudero. Customizadas a tu medida."
+    />
 
-  <!-- META OpenGraf -->
-  <meta property="og:title" content="ED Guitars" />
-  <meta property="og:img" content="https://i.ibb.co/sFK529k/logo04-BK-fw.png" />
-  <meta property="og:author" content="Emanuel Escudero" />
-  <meta property="og:description"
-    content="Guitarras y bajos eléctricos hechas a mano por el luthier Daniel Escudero. Customizadas a tu medida." />
+    <!-- FAV ICON // TITLE -->
+    <link rel="icon" href="../assets/icons/favIconED.png" />
+    <title>ED Guitars | Modelos</title>
 
-  <!-- FAV ICON // TITLE -->
-  <link rel="icon" href="../assets/icons/favIconED.png" />
-  <title>ED Guitars | Modelos</title>
+    <!-- ANIMACIONES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- ANIMACIONES -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/custom.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="../css/custom.css" />
+    <!-- BOOTSTRAP JS-->
+    <script src="../js/bootstrap.js" defer></script>
+  </head>
 
-  <!-- BOOTSTRAP JS-->
-  <script src="../js/bootstrap.js" defer></script>
-</head>
+  <!--================== BODY ==================-->
 
-<!--================== BODY ==================-->
+  <body class="d-flex flex-column min-vh-100">
+    <!--================== HEADER ==================-->
+    <header class="sticky-top" id="header">
+      <nav class="navbar navbar-expand-md">
+        <div class="container align-items-end col-sm-12">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="row ms-auto logo-principal"
+              src="../assets/images/logo04.png"
+              alt="Logo de ED Guitars"
+            />
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a class="nav-link link" href="../index.html">Inicio</a>
+              <a class="nav-link" id="link__activo" href="guitars.html"
+                >Guitars</a
+              >
+              <a class="nav-link link" href="galeria.html">Galería</a>
+              <a class="nav-link link" href="sobre__mi.html">Sobre Mí</a>
+              <a class="nav-link link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body class="d-flex flex-column min-vh-100">
-  <!--================== HEADER ==================-->
-  <header class="sticky-top" id="header">
-    <nav class="navbar navbar-expand-md">
-      <div class="container align-items-end col-sm-12">
-        <a class="navbar-brand" href="../index.html">
-          <img class="row ms-auto logo-principal animate__animated animate__fadeIn animate__slower"
-            src="../assets/images/logo04.png" alt="Logo de ED Guitars" />
-        </a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto align-items-center">
-            <a class="nav-link link" href="../index.html">Inicio</a>
-            <a class="nav-link" id="link__activo" href="./guitars.html">Guitars</a>
-            <a class="nav-link link" href="./galeria.html">Galería</a>
-            <a class="nav-link link" href="./sobre__mi.html">Sobre Mí</a>
-            <a class="nav-link link" href="./contacto.html">Contacto</a>
+    <!--MAIN DEL SITIO-->
+    <main>
+      <div class="container my-5 bg-light rounded-1">
+        <div class="row align-items-start">
+          <h1
+            class="h1 title animate__animated animate__fadeInLeft animate__slow"
+          >
+            Guitars Specs
+          </h1>
+          <!-- COL LEFT -->
+          <div class="col-md-6 my-4 animate__animated animate__fadeInUp">
+            <!-- IMG GUITAR -->
+            <img
+              class="img-fluid rounded mb-4"
+              src="../assets/images/custom_teleca/photo02.png"
+              alt="Fotografía de la guitarra eléctrica modelo Custom Teleca de ED Guitars"
+            />
+            <!-- VIDEO TEST GUITAR -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/MWPpw6P5ccM"
+                title="Fernando Culen - Test Telecaster Custom Baccaglioni"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <!-- ESPECIFICACIONES GUITAR -->
+          <div
+            class="col-md-6 my-3 text-start animate__animated animate__fadeInUp"
+          >
+            <h5 class="h5 fw-bolder fs-5 fst-italic text-black">
+              Especificaciones:
+            </h5>
+            <ul class="text-start">
+              <li>Neck Material: Arce</li>
+              <li>Neck Construction: 4-Bolt</li>
+              <li>Neck Shape: Deep "C"</li>
+              <li>Fingerboard Material: Maple</li>
+              <li>Scale Length: 25.5" (64.77 cm)</li>
+              <li>Fingerboard Radius: 9.5" (241 mm)</li>
+              <li>Fret Size: Narrow Tall</li>
+              <li>Nut Width: 1.685" (42.8 mm)</li>
+              <li>Nut Material: Hueso</li>
+              <li>Side Dots: Black</li>
+              <li>Number of Frets: 22</li>
+              <li>Position Inlays: Incrustaciones de punto negro</li>
+              <li>
+                Switching: 3-Position Toggle: Position 1. Bridge Pickup,
+                Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+              </li>
+              <li>
+                Auxillary Switching: Push-Push Tone Controls Activate Double
+                Tap™ Function
+              </li>
+              <li>Bridge Pickup: V-Mod II Double Tap™ Humbucking</li>
+              <li>Neck Pickup: V-Mod II Double Tap™ Humbucking</li>
+              <li>
+                Controls; Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup),
+                Tone 1. (Neck Pickup), Tone 2. (Bridge Pickup)
+              </li>
+              <li>
+                Switching: 3-Position Toggle: Position 1. Bridge Pickup,
+                Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+              </li>
+              <li>
+                Bridge: 3-Saddle Custom "Cut-Off" Vintage-Style Tele® Bridge
+                with Compensated Brass Saddles
+              </li>
+              <li>Tuning Machines: Fender® Standard Cast/Sealed Staggered</li>
+              <li>Control Knobs: Aged White "Witch Hat"</li>
+              <li>Neck Plate: 4-Bolt</li>
+              <li>Hardware Finish: Nickel/Chrome</li>
+              <li>Pickguard: 3-Ply Black</li>
+              <li>Switch Tip: Aged White</li>
+              <li>
+                Strings: Fender® USA 250L Nickel Plated Steel (.009-.042
+                Gauges), PN 0730250403
+              </li>
+              <li>Case/Gig Bag: Deluxe Molded Case (Included)</li>
+            </ul>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
 
-  <!--MAIN DEL SITIO-->
-  <main>
-    <div class="container text-center text-light my-2">
-      <div class="row align-items-start">
-        <div>
-          <h1 class="h1 title">Guitars Specs</h1>
-        </div>
-        <!-- COL LEFT -->
-        <div class="col-md-6 my-4">
-          <!-- IMG GUITAR -->
-          <img class="img-fluid rounded mb-4" src="../assets/images/custom_teleca/photo02.png"
-            alt="Fotografía de la guitarra eléctrica modelo Custom Teleca de ED Guitars" />
-          <!-- VIDEO TEST GUITAR -->
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/MWPpw6P5ccM"
-              title="Fernando Culen - Test Telecaster Custom Baccaglioni" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <!-- ESPECIFICACIONES GUITAR -->
-        <div class="col-md-6 my-3 text-start">
-          <h5 class="h5 mx-3">Especificaciones:</h5>
-          <ul class="text-start">
-            <li>Neck Material: Arce</li>
-            <li>Neck Construction: 4-Bolt</li>
-            <li>Neck Shape: Deep "C"</li>
-            <li>Fingerboard Material: Maple</li>
-            <li>Scale Length: 25.5" (64.77 cm)</li>
-            <li>Fingerboard Radius: 9.5" (241 mm)</li>
-            <li>Fret Size: Narrow Tall</li>
-            <li>Nut Width: 1.685" (42.8 mm)</li>
-            <li>Nut Material: Hueso</li>
-            <li>Side Dots: Black</li>
-            <li>Number of Frets: 22</li>
-            <li>Position Inlays: Incrustaciones de punto negro</li>
-            <li>
-              Switching: 3-Position Toggle: Position 1. Bridge Pickup,
-              Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+      <a href="https://wa.me/5491137575625" target="_blank">
+        <img
+          src="../assets/icons/whatsapp5.png"
+          class="wtp__sticky"
+          alt="Ícono de acceso al Whatsapp del luthier ED"
+        />
+      </a>
+    </main>
+
+    <!--================== FOOTER GENERAL ==================-->
+    <footer class="footer py-5 px-4 container-fluid mt-auto">
+      <!-- Footer Propietario -->
+      <div class="row px-4 justify-content-around">
+        <!-- Propietario Seguinos -->
+        <div class="col-md-4 px-5 mb-4">
+          <h5 class="h5 mb-4">Seguinos</h5>
+          <ul class="nav flex-column">
+            <li class="mb-1 footer__link--hover">
+              <a
+                class="text-decoration-none icon-social footer__text"
+                href="https://www.instagram.com/edguitars_/"
+                target="_blank"
+                title="Enlace al Instagram del luthier ED"
+              >
+                <img
+                  src="../assets/icons/instagram.png"
+                  class="footer__icon me-2"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Instagram de ED Guitars"
+                />Instagram
+              </a>
             </li>
-            <li>
-              Auxillary Switching: Push-Push Tone Controls Activate Double
-              Tap™ Function
+            <li class="mb-1 footer__link--hover">
+              <a
+                class="text-decoration-none icon-social footer__text"
+                href="https://facebook.com"
+                target="_blank"
+                title="Enlace al Facebook del luthier ED"
+              >
+                <img
+                  src="../assets/icons/facebook.png"
+                  class="footer__icon me-2"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Facebook de ED Guitars"
+                />Facebook
+              </a>
             </li>
-            <li>Bridge Pickup: V-Mod II Double Tap™ Humbucking</li>
-            <li>Neck Pickup: V-Mod II Double Tap™ Humbucking</li>
-            <li>
-              Controls; Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup),
-              Tone 1. (Neck Pickup), Tone 2. (Bridge Pickup)
+            <li class="mb-1 footer__link--hover">
+              <a
+                class="text-decoration-none icon-social footer__text"
+                href="https://twitter.com"
+                target="_blank"
+                title="Enlace al Twitter del luthier ED"
+              >
+                <img
+                  src="../assets/icons/twitter.png"
+                  class="footer__icon me-2"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al Twitter de ED Guitars"
+                />Twitter
+              </a>
             </li>
-            <li>
-              Switching: 3-Position Toggle: Position 1. Bridge Pickup,
-              Position 2. Bridge and Neck Pickups, Position 3. Neck Pickup
+            <li class="mb-1 footer__link--hover">
+              <a
+                class="text-decoration-none icon-social footer__text"
+                href="https://www.youtube.com/"
+                target="_blank"
+                title="Enlace al YouTube del luthier ED"
+              >
+                <img
+                  src="../assets/icons/youtube.png"
+                  class="footer__icon me-2"
+                  width="24"
+                  height="24"
+                  alt="Icono de enlace al YouTube de ED Guitars"
+                />YouTube
+              </a>
             </li>
-            <li>
-              Bridge: 3-Saddle Custom "Cut-Off" Vintage-Style Tele® Bridge
-              with Compensated Brass Saddles
-            </li>
-            <li>Tuning Machines: Fender® Standard Cast/Sealed Staggered</li>
-            <li>Control Knobs: Aged White "Witch Hat"</li>
-            <li>Neck Plate: 4-Bolt</li>
-            <li>Hardware Finish: Nickel/Chrome</li>
-            <li>Pickguard: 3-Ply Black</li>
-            <li>Switch Tip: Aged White</li>
-            <li>
-              Strings: Fender® USA 250L Nickel Plated Steel (.009-.042
-              Gauges), PN 0730250403
-            </li>
-            <li>Case/Gig Bag: Deluxe Molded Case (Included)</li>
           </ul>
         </div>
-      </div>
-    </div>
-  </main>
 
-  <!--================== FOOTER ==================-->
-  <div class="footer container-fluid mt-auto">
-    <footer class="footer d-flex flex-wrap py-1 justify-content-evenly align-items-center">
-      <!-- Footer Propietario -->
-      <div class="d-flex row-md-6">
-        <ul class="nav list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://www.instagram.com/edguitars_/" target="_blank"
-              title="Enlace al Instagram del luthier ED">
-              <img src="../assets/icons/instagram3.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Instagram de ED Guitars" />
-              <span class="icon-social" id="text-footer"> Instagram </span>
+        <!-- Propietario Nosotros -->
+        <div class="col-md-4 mb-4 px-5">
+          <h5 class="h5 mb-4">Nosotros</h5>
+          <ul class="nav flex-column justify-content-center">
+            <li>
+              Giribone 3695<img
+                src="../assets/icons/location-pointer.png"
+                class="footer__icon ms-2"
+                width="24"
+                height="24"
+                alt="Icono de ubicación de ED Guitars"
+              />
+            </li>
+            <li>Avellaneda</li>
+            <li>Buenos Aires</li>
+            <li>Argentina</li>
+            <li>
+              +54 11 12 345 678<img
+                src="../assets/icons/phone-call.png"
+                class="footer__icon ms-2"
+                width="24"
+                height="24"
+                alt="Icono de teléfono de ED Guitars"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <!-- Propietario Suscribite -->
+        <div class="col-md-4 mb-4">
+          <form>
+            <h5 class="h5 mb-4">Suscribite a nuestro newsletter</h5>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Escribe tu email"
+              />
+              <button class="btn btn-primary" type="button">Suscribirme</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Desarrollador -->
+      <div class="text-center pt-4 border-top">
+        <h6 class="h6">© 2022 | All Rights Reserved</h6>
+        <h6 class="h6">• Powered by Emanuel Escudero •</h6>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li>
+            <a
+              href="https://github.com/escuderoemanuel"
+              target="_blank"
+              title="Enlace al GitHub del desarrollador del sitio"
+            >
+              <img
+                class="footer__icon footer__icon--dev ms-2"
+                width="24"
+                height="24"
+                src="../assets/icons/github.png"
+                alt="Icono de enlace al GitHub del Desarrollador del sitio"
+              />
             </a>
           </li>
-          <li class="ms-3">
-            <a class="text-decoration-none" href="https://wa.me/5491137575625" target="_blank"
-              title="Enlace al Whatsapp del luthier ED">
-              <img src="../assets/icons/whatsapp5.png" class="bi" width="24" height="24"
-                alt="Icono de enlace al Whatsapp de ED Guitars" />
-              <span class="icon-social" id="text-footer"> Whatsapp </span>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/emanuel-escudero-657675b7/"
+              target="_blank"
+              title="Enlace al LinkedIn del desarrollador del sitio"
+            >
+              <img
+                class="footer__icon footer__icon--dev ms-2"
+                width="24"
+                height="24"
+                src="../assets/icons/linkedin.png"
+                alt="Icono enlace al LinkedIn del Desarrollador del sitio"
+              />
             </a>
           </li>
         </ul>
       </div>
-
-      <!-- Footer Desarrollador -->
-      <div class="row-md-6 d-flex">
-        <span class="mx-2 span__dev">Powered by Emanuel Escudero </span>
-
-        <a class="d-flex" href="https://github.com/escuderoemanuel" target="_blank"
-          title="Enlace al Instagram del desarrollador del sitio">
-          <img class="mx-1 icon__dev icon__dev--github" src="../assets/icons/github.png"
-            alt="Icono de enlace al GitHub del Desarrollador del sitio" />
-        </a>
-
-        <a class="d-flex" href="https://www.linkedin.com/in/emanuel-escudero-657675b7/" target="_blank"
-          title="Enlace al LinkedIn del desarrollador del sitio">
-          <img class="mx-1 icon__dev icon__dev--linkedin" src="../assets/icons/linkedin.png"
-            alt="Icono enlace al LinkedIn del Desarrollador del sitio" />
-        </a>
-      </div>
     </footer>
-  </div>
-</body>
-
+  </body>
 </html>
