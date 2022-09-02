@@ -10853,7 +10853,7 @@ body .wtp__sticky:hover {
   transition: all 200ms ease;
 }
 #header .navbar-nav #link__activo {
-  border-radius: 20px;
+  border-radius: 40px 20px 40px 20px;
   background-color: #77ff00;
   color: #000000;
   pointer-events: none;
