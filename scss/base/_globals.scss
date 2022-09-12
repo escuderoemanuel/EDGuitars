@@ -5,13 +5,14 @@ body {
     @include title__h1;
   }
 
-    .wtp__sticky {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-        &:hover {
-          transform: scale(0.9);
-          transition: $transition-normal;     
+  .wtp__sticky {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+
+    &:hover {
+      transform: scale(0.9);
+      transition: $transition-normal;
     }
   }
 }
