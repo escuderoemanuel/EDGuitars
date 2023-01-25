@@ -17,15 +17,13 @@
       font-style: italic;
 
       &:hover {
-        transform: scale(1.05);
+        transform: scale(0.95);
         transition: $transition-normal;
       }
     }
 
     #link__activo {
-      border-radius: 40px 20px 40px 20px;
-      background-color: #77ff00;
-      color: #000000;
+      color: rgb(160, 160, 160);
       pointer-events: none;
     }
   }

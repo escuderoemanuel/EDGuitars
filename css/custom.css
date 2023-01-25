@@ -10841,13 +10841,11 @@ body .wtp__sticky:hover {
   font-style: italic;
 }
 #header .navbar-nav .nav-link:hover {
-  transform: scale(1.05);
+  transform: scale(0.95);
   transition: all 200ms ease;
 }
 #header .navbar-nav #link__activo {
-  border-radius: 40px 20px 40px 20px;
-  background-color: #77ff00;
-  color: #000000;
+  color: rgb(160, 160, 160);
   pointer-events: none;
 }
 
