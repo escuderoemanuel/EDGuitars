@@ -1,6 +1,7 @@
-<h1> ED GUITARS • Tocá Alto </h1>
+<h1> ED GUITARS </h1>
+<h3>• Tocá Alto •</h3>
 
-<ul> About the website: 
+<ul> About the website:
 
   <li> Project's Name: ED Guitars </li>
   <li> Author: Escudero Emanuel </li>
@@ -8,17 +9,17 @@
   <li> Type: Static website. </li>
   <li> Owner: Daniel Escudero </li>
   <li> Purpose: Mostrar el trabajo del luthier Daniel Escudero a sus clientes potenciales. </li>
-  <li> GitHub Repository: https://github.com/escuderoemanuel/EDGuitars </li>
+  <li> GitHub's Repository: https://github.com/escuderoemanuel/EDGuitars </li>
   <li> GitHub Pages: https://escuderoemanuel.github.io/EDGuitars/ </li>
 </ul>
 
 <ul> About the Developer:
 
   <li> Developer's Github: https://github.com/escuderoemanuel </li>
-  <li> Developer Portfolio: https://github.com/escuderoemanuel/Portfolio </li>
+  <li> Developer's Portfolio: https://github.com/escuderoemanuel/Portfolio </li>
 </ul>
 
-<ul> Utilities & Tools: 
+<ul> Utilities & Tools:
 
   <li> HTML5 </li>
   <li> CSS3 </li>
@@ -30,7 +31,6 @@
   <li> GITHUB </li>
   <li> SEO </li>
 </ul>
-
 
 <h5> Functionality. </h5>
 

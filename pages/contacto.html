@@ -70,18 +70,20 @@
           Contáctanos
         </h1>
         <!-- FORMULARIO -->
-        <form class="col-md-6 animate__animated animate__fadeInUp animate__slow">
+        <form class="col-md-6 animate__animated animate__fadeInUp animate__slow"
+          action="https://formsubmit.co/escudero.mdz@gmail.com" method="POST">
           <!-- NAME -->
           <div class="mb-1">
             <label for="formGroupExampleInput" class="form-label">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input your name" required />
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input your name" required
+              name='Name' />
           </div>
 
           <!-- EMAIL -->
           <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Input your email" required />
+              placeholder="Input your email" required name='Email' />
             <div id="emailHelp" class="form-text">
               We'll never share your email with anyone else.
             </div>
@@ -106,7 +108,7 @@
           <!-- SERVICE TYPE -->
           <div class="col-md-3 mb-2">
             <label for="validationCustom04" class="form-label">Option</label>
-            <select class="form-select" id="validationCustom04" required>
+            <select class="form-select" id="validationCustom04" required name='Choose'>
               <option selected disabled value="">Choose...</option>
               <option>Building</option>
               <option>Repair</option>
@@ -118,12 +120,13 @@
           <div class="mb-2">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"
-              required></textarea>
+              required name='Message'></textarea>
           </div>
 
           <!-- TERMS -->
           <div class="form-check form-switch mb-2">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" required />
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" required
+              name='Agree to terms and conditions' />
             <label class="form-check-label" for="flexSwitchCheckDefault">
               Agree to
               <a href="terminos__condiciones.html" target="_blank"
@@ -135,6 +138,10 @@
           <div class="d-grid gap-2 mb-2">
             <button type="submit" class="btn btn-primary mb-2">Submit</button>
           </div>
+
+
+          <input type="hidden" name="_next" value="https://escuderoemanuel.github.io/EDGuitars/pages/contacto.html">
+          <input type="hidden" name="_captcha" value="false">
         </form>
 
         <!--MAP -->
