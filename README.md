@@ -1,6 +1,9 @@
 <h1> ED GUITARS </h1>
 <h3>• Tocá Alto •</h3>
 
+![Project Poster](https://i.ibb.co/xsSBk8f/edguitars2.jpg)
+
+
 <ul> About the website:
 
   <li> Project's Name: ED Guitars </li>
