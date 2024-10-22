@@ -24,15 +24,14 @@
     }
   }
 
-  .footer__icon {
-    filter: invert(44%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%)
-      contrast(95%);
+  
+  .footer__icon--dev {
+    transition: $transition-normal;
   }
 
   .footer__icon--dev {
     &:hover {
-      transform: scale(1.1);
-      transition: $transition-normal;
+      transform: scale(1.05) rotate(7deg);
     }
   }
 }
